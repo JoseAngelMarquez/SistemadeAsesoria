@@ -1,0 +1,77 @@
+   /* Estilos de la tabla */
+   .history-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.history-table thead th {
+    padding: 12px 15px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.history-table tbody td {
+    padding: 12px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.history-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilos para las celdas */
+.history-table td i {
+    margin-right: 10px;
+}
+
+.badge {
+    padding: 5px 15px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+.badge-individual {
+    background-color: #2ecc71;
+}
+
+.badge-grupal {
+    background-color: #e67e22;
+}
+
+.no-records {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    padding: 20px;
+}
+
+/* Estilos de la paginación */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #2980b9;
+}
+
+.pagination .prev, .pagination .next {
+    font-weight: bold;
+}

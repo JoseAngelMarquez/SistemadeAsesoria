@@ -1,0 +1,101 @@
+/* Contenido de la página */
+.content {
+    padding: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    /* Evita redimensionar el textarea */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+/* Mensaje cuando no hay asesorías */
+table tbody tr td[colspan="4"] {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    /* Gris suave */
+}
+
+/* Agregar borde de sombra a la tabla */
+table {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Estilo para el contenedor de la tabla */
+.table-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas cuando se visualiza un texto largo */
+td {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Estilo para las celdas de la fecha */
+td:nth-child(3) {
+    font-style: italic;
+    color: #6B6B6B;
+    /* Gris suave */
+}
+
+/* Estilo del encabezado de la tabla */
+th {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #8B1A1A;
+    /* Vino */
+    color: white;
+}
+
+/* Estilo para la tabla al pasar el mouse */
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+input[type="text"].search-filter:focus {
+    border-color: #8B1A1A;
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 26, 26, 0.5);
+}
+
+/* Estilos para los bordes */
+td,
+th {
+    border-left: 1px solid #ddd;
+}
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}

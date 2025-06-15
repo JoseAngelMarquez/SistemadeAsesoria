@@ -1,0 +1,104 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-info, .profile-fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-photo {
+    text-align: center;
+}
+
+.avatar-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+  /* Estilo para el body y container para eliminar márgenes */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%; 
+}
+
+.main-content {
+    flex: 1; 
+    overflow: auto;
+    padding: 20px; 
+}
+
+.profile-container {
+    display: flex; 
+    margin-top: 20px;
+    justify-content: space-between; 
+}
+
+.profile-info,
+.profile-fields {
+    flex: 1; 
+    margin: 0 10px; /* Espacio lateral entre columnas */
+}
+
+.profile-photo {
+    text-align: center; /* Centra la foto */
+}
+
+.avatar-img {
+    width: 150px; /* Ancho fijo para la foto */
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.student-details,
+.profile-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+/* Agregar margen a todos los inputs */
+input {
+    margin: 15px 0; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unsis{
+    width: 15%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Menú lateral izquierdo */
+.sidebar {
+    width: 250px;
+    background-color: #333;     /* background-color: #3E000B;*/
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #444;
+}
+
+.logout {
+    margin-top: auto;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.logout a:hover {
+    background-color: #444;
+}
+
+/* Contenido principal */
+.main-content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Barra superior */
+.top-bar {
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.software-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section i.avatar {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.user-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-button:hover {
+    background-color: #0056b3;
+}
+

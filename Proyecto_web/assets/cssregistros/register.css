@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pass {
+    margin: 10px 0;
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    margin-top: 20px;
+    background-color: #f70e0e;
+    color: white;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.button1:hover{
+    background-color: #800000;
+}
+
+.button2 {
+    margin-top: 20px;
+    background-color: #192bca;
+    color: white;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.button2:hover{
+    background-color: #116be2;
+}

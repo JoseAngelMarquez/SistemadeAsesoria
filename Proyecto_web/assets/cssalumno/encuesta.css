@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    box-shadow: 0px 4px 10px black;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px; /* Aumentamos el espaciado entre tarjetas */
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.option {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.option input[type="radio"] {
+    margin-right: 5px;
+}
+
+.option input[type="radio"]:checked {
+    background-color: #800000;
+    border: 2px solid #800000;
+}
+
+.option label {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Estilos de los botones */
+.card-footer {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    width: 100%; /* Ajusta el contenedor al 80% del ancho */
+}
+
+.button1,
+.button2 {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    width: 45%; /* Cada botón ocupa el 45% del espacio disponible */
+    margin-bottom: 15px; /* Añadimos margen inferior a los botones */
+
+}
+
+.button1 {
+    width: 40%;
+    padding: 12px;
+    /*background-color: #800000;*/
+    background-color: #2828c1;
+    color: white;
+    margin-left: 8%; /* Margen izquierdo del 10% para el primer botón */
+}
+
+.button1:hover {
+    /*background-color: #660000;*/
+    background-color: #091cea;
+    
+}
+
+.button2 {
+    width: 40%;
+    padding: 12px;
+    background-color: #ccc;
+    color: #333;
+    margin-right: 5%; /* Margen izquierdo del 10% para el primer botón */
+
+}
+
+.button2:hover {
+    background-color: #bbb;
+}
+
+/* Agregar margen superior al select para elegir maestro */
+select[name="maestro_id"] {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+
+}

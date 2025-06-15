@@ -1,0 +1,49 @@
+.preguntas {
+    display: flex;
+    /* Flexbox para alinear en fila */
+    justify-content: space-between;
+    /* Espacio entre botones */
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+/* Estilo para los botones */
+.preguntas button {
+    width: 22%;
+    /* Asegura que todos tengan el mismo ancho */
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* Colores formales */
+.button1 {
+    background-color: #2a9df4;
+    /* Azul suave */
+}
+
+.button2 {
+    background-color: #6c757d;
+    /* Gris */
+}
+
+.button3 {
+    background-color: #343a40;
+    /* Gris oscuro */
+}
+
+.button4 {
+    background-color: #007bff;
+    /* Azul más oscuro */
+}
+
+/* Hover para todos los botones */
+.preguntas button:hover {
+    opacity: 0.9;
+    /* Efecto hover */
+}

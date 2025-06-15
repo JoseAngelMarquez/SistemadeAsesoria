@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+}
+
+.Logueo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.avatar-male, .avatar-female {
+    font-size: 60px;
+    margin: 0 10px;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pass {
+    margin: 10px 0;
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    margin-top: 20px;
+    background-color: #f70e0e;
+    color: white;
+    width: 40%;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.button2 {
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: rgb(2, 2, 2);
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #800000;
+}
